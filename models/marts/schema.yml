@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2
 
 models:
@@ -14,3 +15,21 @@ models:
         tests:
           - not_null
           - unique
+=======
+version: 2
+
+models:
+  - name: dim_employees
+    columns:
+      - name: emp_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_salaries
+    columns:
+      - name: salary_id
+        tests:
+          - not_null
+          - unique
+>>>>>>> fd6fb6002b4ccfd5c13c9c190fc5a20739d44882

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2
 
 sources:
@@ -6,4 +7,14 @@ sources:
     schema: RAW
     tables:
       - name: employees
+=======
+version: 2
+
+sources:
+  - name: raw
+    database: HR_ANALYTICS_DB
+    schema: RAW
+    tables:
+      - name: employees
+>>>>>>> fd6fb6002b4ccfd5c13c9c190fc5a20739d44882
       - name: salaries

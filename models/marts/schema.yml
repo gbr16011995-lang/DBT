@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_employees
+    columns:
+      - name: emp_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_salaries
+    columns:
+      - name: salary_id
+        tests:
+          - not_null
+          - unique
